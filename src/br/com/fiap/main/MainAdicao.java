@@ -31,7 +31,7 @@ public class MainAdicao {
                         real2 = Double.parseDouble(aux);
                         adicao1.setNumReal1(real1);
                         adicao1.setNumReal2(real2);
-                        JOptionPane.showMessageDialog(null, String.format("1°Valor: %f\n2°Valor: %f\nResultado da soma: %f", adicao1.getNumReal1(), adicao1.getNumReal2(),adicao1.somar(real1, real2)));
+                        JOptionPane.showMessageDialog(null, String.format("1°Valor: %.2f\n2°Valor: %.2f\nResultado da soma: %.2f", adicao1.getNumReal1(), adicao1.getNumReal2(),adicao1.somar(real1, real2)));
                         break;
                     default:
                         JOptionPane.showMessageDialog(null, "ERRO: Opção inválida!");
