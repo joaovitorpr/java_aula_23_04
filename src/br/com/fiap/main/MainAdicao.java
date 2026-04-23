@@ -41,5 +41,6 @@ public class MainAdicao {
                 JOptionPane.showMessageDialog(null, e.getMessage());
             }
         }
+        JOptionPane.showMessageDialog(null,"Fim do programa!");
     }
 }
